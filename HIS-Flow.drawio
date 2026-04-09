@@ -1,0 +1,379 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Hospital Workflow" id="MWH2bALKJkiqhTIRNFMW">
+    <mxGraphModel dx="3000" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Login (Credentials by Admin)" vertex="1">
+          <mxGeometry height="60" width="200" x="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Dashboard" vertex="1">
+          <mxGeometry height="60" width="160" x="370" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-3" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-1" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-4" parent="1" style="rounded=1;" value="Patients Module" vertex="1">
+          <mxGeometry height="60" width="160" x="120" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-5" parent="1" style="rhombus;" value="Patient Existing?" vertex="1">
+          <mxGeometry height="80" width="160" x="120" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-6" parent="1" style="rounded=1;" value="Search Patient" vertex="1">
+          <mxGeometry height="60" width="140" x="80" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-7" parent="1" style="rounded=1;" value="Add New Patient" vertex="1">
+          <mxGeometry height="60" width="160" x="250" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-8" parent="1" style="rounded=1;" value="New Encounter" vertex="1">
+          <mxGeometry height="60" width="160" x="150" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-9" parent="1" style="rounded=1;" value="View Encounters" vertex="1">
+          <mxGeometry height="60" width="160" x="470" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-10" parent="1" style="rhombus;" value="Need Service?" vertex="1">
+          <mxGeometry height="80" width="160" x="470" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-11" parent="1" style="rounded=1;" value="Sub Encounter" vertex="1">
+          <mxGeometry height="60" width="160" x="470" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-12" parent="1" style="rounded=1;" value="Lab Orders" vertex="1">
+          <mxGeometry height="60" width="160" x="770" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-13" parent="1" style="rounded=1;" value="Process Lab" vertex="1">
+          <mxGeometry height="60" width="160" x="770" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-14" parent="1" style="rounded=1;" value="System Admin" vertex="1">
+          <mxGeometry height="60" width="160" x="620" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-15" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-2" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-16" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-4" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-17" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-5" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-18" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-5" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-19" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-6" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-20" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-7" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-21" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-2" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-22" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-9" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-23" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-10" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-24" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-2" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-25" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-12" style="rounded=0;" target="8D8XZ6ssLlLs-2FBqvDR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-26" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Login (Credentials provided by Admin) -&gt; Dashboard" vertex="1">
+          <mxGeometry height="30" width="330" x="40" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-27" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Dashboard -&gt; Nurse Workflow" vertex="1">
+          <mxGeometry height="104" width="230" x="410" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-28" parent="8D8XZ6ssLlLs-2FBqvDR-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Dashboard -&gt; Doctor Workflow" vertex="1">
+          <mxGeometry height="26" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-29" parent="8D8XZ6ssLlLs-2FBqvDR-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Dashboard -&gt; MedTech Workflow" vertex="1">
+          <mxGeometry height="26" width="230" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-30" parent="8D8XZ6ssLlLs-2FBqvDR-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Dashboard -&gt; System Admin Workflow" vertex="1">
+          <mxGeometry height="26" width="230" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-31" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Nurse Workflow -&gt; Open Patients Module" vertex="1">
+          <mxGeometry height="208" width="400" x="660" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-32" parent="8D8XZ6ssLlLs-2FBqvDR-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Open Patients Module -&gt; Patient Existing?" vertex="1">
+          <mxGeometry height="26" width="400" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-33" parent="8D8XZ6ssLlLs-2FBqvDR-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Patient Existing? -&gt; Yes -&gt; Search Patient (Name or ID)" vertex="1">
+          <mxGeometry height="26" width="400" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-34" parent="8D8XZ6ssLlLs-2FBqvDR-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Patient Existing? -&gt; No -&gt; Add New Patient (Enter Details &amp; Save)" vertex="1">
+          <mxGeometry height="26" width="400" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-35" parent="8D8XZ6ssLlLs-2FBqvDR-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Search Patient (Name or ID) -&gt; Open Encounter Module" vertex="1">
+          <mxGeometry height="26" width="400" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-36" parent="8D8XZ6ssLlLs-2FBqvDR-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Add New Patient (Enter Details &amp; Save) -&gt; Open Encounter Module" vertex="1">
+          <mxGeometry height="26" width="400" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-37" parent="8D8XZ6ssLlLs-2FBqvDR-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Open Encounter Module -&gt; Create New Encounter" vertex="1">
+          <mxGeometry height="26" width="400" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-38" parent="8D8XZ6ssLlLs-2FBqvDR-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Create New Encounter -&gt; Enter Details (Checkup / Lab / Vaccination)" vertex="1">
+          <mxGeometry height="26" width="400" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-39" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Enter Details (Checkup / Lab / Vaccination) -&gt; Checkup -&gt; Assign Doctor" vertex="1">
+          <mxGeometry height="78" width="460" x="660" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-40" parent="8D8XZ6ssLlLs-2FBqvDR-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Enter Details (Checkup / Lab / Vaccination) -&gt; Lab -&gt; Send to Lab Orders" vertex="1">
+          <mxGeometry height="26" width="460" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-41" parent="8D8XZ6ssLlLs-2FBqvDR-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Enter Details (Checkup / Lab / Vaccination) -&gt; Appointment -&gt; Create Appointment" vertex="1">
+          <mxGeometry height="26" width="460" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-42" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Doctor Workflow -&gt; View Assigned Encounters" vertex="1">
+          <mxGeometry height="208" width="420" x="1080" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-43" parent="8D8XZ6ssLlLs-2FBqvDR-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="View Assigned Encounters -&gt; View Appointments" vertex="1">
+          <mxGeometry height="26" width="420" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-44" parent="8D8XZ6ssLlLs-2FBqvDR-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="View Appointments -&gt; Select Patient" vertex="1">
+          <mxGeometry height="26" width="420" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-45" parent="8D8XZ6ssLlLs-2FBqvDR-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Select Patient -&gt; Need Additional Service?" vertex="1">
+          <mxGeometry height="26" width="420" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-46" parent="8D8XZ6ssLlLs-2FBqvDR-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Need Additional Service? -&gt; Yes -&gt; Create Sub-Encounter" vertex="1">
+          <mxGeometry height="26" width="420" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-47" parent="8D8XZ6ssLlLs-2FBqvDR-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Create Sub-Encounter -&gt; Send to Lab Orders" vertex="1">
+          <mxGeometry height="26" width="420" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-48" parent="8D8XZ6ssLlLs-2FBqvDR-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Send to Lab Orders -&gt; Monitor Lab Status (Queue / Finished)" vertex="1">
+          <mxGeometry height="26" width="420" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-49" parent="8D8XZ6ssLlLs-2FBqvDR-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Need Additional Service? -&gt; No -&gt; Monitor Lab Status (Queue / Finished)" vertex="1">
+          <mxGeometry height="26" width="420" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-50" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="MedTech Workflow -&gt; Open Lab Orders" vertex="1">
+          <mxGeometry height="104" width="330" x="1130" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-51" parent="8D8XZ6ssLlLs-2FBqvDR-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Open Lab Orders -&gt; Process Lab Requests" vertex="1">
+          <mxGeometry height="26" width="330" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-52" parent="8D8XZ6ssLlLs-2FBqvDR-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Process Lab Requests -&gt; Enter/Edit Results" vertex="1">
+          <mxGeometry height="26" width="330" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-53" parent="8D8XZ6ssLlLs-2FBqvDR-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Enter/Edit Results -&gt; Update Status (Queue to Finished)" vertex="1">
+          <mxGeometry height="26" width="330" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-54" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="System Admin Workflow -&gt; Full Access" vertex="1">
+          <mxGeometry height="130" width="310" x="1470" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-55" parent="8D8XZ6ssLlLs-2FBqvDR-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Full Access -&gt; Manage Users &amp; Roles" vertex="1">
+          <mxGeometry height="26" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-56" parent="8D8XZ6ssLlLs-2FBqvDR-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Manage Users &amp; Roles -&gt; Manage Modules &amp; Config" vertex="1">
+          <mxGeometry height="26" width="310" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-57" parent="8D8XZ6ssLlLs-2FBqvDR-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Manage Modules &amp; Config -&gt; Monitor Audit Trail" vertex="1">
+          <mxGeometry height="26" width="310" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-58" parent="8D8XZ6ssLlLs-2FBqvDR-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Monitor Audit Trail -&gt; Maintain System Data" vertex="1">
+          <mxGeometry height="26" width="310" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-61" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Login (Credentials provided by Admin)" vertex="1">
+          <mxGeometry height="60" width="220" x="2010" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Dashboard" vertex="1">
+          <mxGeometry height="60" width="160" x="2260" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-63" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-61" target="8D8XZ6ssLlLs-2FBqvDR-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-64" parent="1" style="rounded=1;" value="Open Patients Module" vertex="1">
+          <mxGeometry height="60" width="160" x="2010" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-65" parent="1" style="rhombus;" value="Patient Existing?" vertex="1">
+          <mxGeometry height="80" width="160" x="2010" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-66" parent="1" style="rounded=1;" value="Search Patient (Name or ID)" vertex="1">
+          <mxGeometry height="60" width="180" x="1970" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-67" parent="1" style="rounded=1;" value="Add New Patient (Enter Details &amp; Save)" vertex="1">
+          <mxGeometry height="60" width="220" x="2180" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-68" parent="1" style="rounded=1;" value="Open Encounter Module" vertex="1">
+          <mxGeometry height="60" width="200" x="2080" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-69" parent="1" style="rounded=1;" value="Create New Encounter" vertex="1">
+          <mxGeometry height="60" width="200" x="2080" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-70" parent="1" style="rounded=1;" value="Enter Details (Checkup / Lab / Vaccination)" vertex="1">
+          <mxGeometry height="60" width="220" x="2080" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-71" parent="1" style="rounded=1;" value="Checkup" vertex="1">
+          <mxGeometry height="60" width="120" x="1970" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-72" parent="1" style="rounded=1;" value="Lab" vertex="1">
+          <mxGeometry height="60" width="120" x="2110" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-73" parent="1" style="rounded=1;" value="Appointment" vertex="1">
+          <mxGeometry height="60" width="120" x="2250" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-74" parent="1" style="rounded=1;" value="Assign Doctor" vertex="1">
+          <mxGeometry height="60" width="120" x="1970" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-75" parent="1" style="rounded=1;" value="Send to Lab Orders" vertex="1">
+          <mxGeometry height="60" width="120" x="2110" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-76" parent="1" style="rounded=1;" value="Create Appointment" vertex="1">
+          <mxGeometry height="60" width="120" x="2250" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-77" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-62" target="8D8XZ6ssLlLs-2FBqvDR-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-78" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-64" target="8D8XZ6ssLlLs-2FBqvDR-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-79" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-65" target="8D8XZ6ssLlLs-2FBqvDR-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-80" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-65" target="8D8XZ6ssLlLs-2FBqvDR-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-81" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-66" target="8D8XZ6ssLlLs-2FBqvDR-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-82" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-67" target="8D8XZ6ssLlLs-2FBqvDR-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-83" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-68" target="8D8XZ6ssLlLs-2FBqvDR-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-84" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-69" target="8D8XZ6ssLlLs-2FBqvDR-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-85" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-70" target="8D8XZ6ssLlLs-2FBqvDR-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-86" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-70" target="8D8XZ6ssLlLs-2FBqvDR-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-87" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-70" target="8D8XZ6ssLlLs-2FBqvDR-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-88" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-71" target="8D8XZ6ssLlLs-2FBqvDR-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-89" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-72" target="8D8XZ6ssLlLs-2FBqvDR-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-90" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-73" target="8D8XZ6ssLlLs-2FBqvDR-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-91" parent="1" style="rounded=1;" value="View Assigned Encounters" vertex="1">
+          <mxGeometry height="60" width="200" x="2460" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-92" parent="1" style="rounded=1;" value="View Appointments" vertex="1">
+          <mxGeometry height="60" width="200" x="2460" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-93" parent="1" style="rounded=1;" value="Select Patient" vertex="1">
+          <mxGeometry height="60" width="200" x="2460" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-94" parent="1" style="rhombus;" value="Need Additional Service?" vertex="1">
+          <mxGeometry height="80" width="200" x="2460" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-95" parent="1" style="rounded=1;" value="Create Sub-Encounter" vertex="1">
+          <mxGeometry height="60" width="200" x="2460" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-96" parent="1" style="rounded=1;" value="Send to Lab Orders" vertex="1">
+          <mxGeometry height="60" width="200" x="2460" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-97" parent="1" style="rounded=1;" value="Monitor Lab Status (Queue / Finished)" vertex="1">
+          <mxGeometry height="60" width="220" x="2450" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-98" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-62" target="8D8XZ6ssLlLs-2FBqvDR-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-99" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-91" target="8D8XZ6ssLlLs-2FBqvDR-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-100" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-92" target="8D8XZ6ssLlLs-2FBqvDR-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-101" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-93" target="8D8XZ6ssLlLs-2FBqvDR-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-102" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-94" target="8D8XZ6ssLlLs-2FBqvDR-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-103" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-95" target="8D8XZ6ssLlLs-2FBqvDR-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-104" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-96" target="8D8XZ6ssLlLs-2FBqvDR-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-105" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-94" target="8D8XZ6ssLlLs-2FBqvDR-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2720" y="520" />
+              <mxPoint x="2720" y="670" />
+              <mxPoint x="2720" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-106" parent="1" style="rounded=1;" value="Open Lab Orders" vertex="1">
+          <mxGeometry height="60" width="200" x="2760" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-107" parent="1" style="rounded=1;" value="Process Lab Requests" vertex="1">
+          <mxGeometry height="60" width="200" x="2760" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-108" parent="1" style="rounded=1;" value="Enter/Edit Results" vertex="1">
+          <mxGeometry height="60" width="200" x="2760" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-109" parent="1" style="rounded=1;" value="Update Status (Queue to Finished)" vertex="1">
+          <mxGeometry height="60" width="220" x="2760" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-110" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-62" target="8D8XZ6ssLlLs-2FBqvDR-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-111" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-106" target="8D8XZ6ssLlLs-2FBqvDR-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-112" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-107" target="8D8XZ6ssLlLs-2FBqvDR-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-113" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-108" target="8D8XZ6ssLlLs-2FBqvDR-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-114" parent="1" style="rounded=1;" value="Full Access" vertex="1">
+          <mxGeometry height="60" width="160" x="3080" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-115" parent="1" style="rounded=1;" value="Manage Users &amp; Roles" vertex="1">
+          <mxGeometry height="60" width="200" x="3060" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-116" parent="1" style="rounded=1;" value="Manage Modules &amp; Config" vertex="1">
+          <mxGeometry height="60" width="200" x="3060" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-117" parent="1" style="rounded=1;" value="Monitor Audit Trail" vertex="1">
+          <mxGeometry height="60" width="200" x="3060" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-118" parent="1" style="rounded=1;" value="Maintain System Data" vertex="1">
+          <mxGeometry height="60" width="200" x="3060" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-119" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-62" target="8D8XZ6ssLlLs-2FBqvDR-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-120" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-114" target="8D8XZ6ssLlLs-2FBqvDR-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-121" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-115" target="8D8XZ6ssLlLs-2FBqvDR-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-122" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-116" target="8D8XZ6ssLlLs-2FBqvDR-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8D8XZ6ssLlLs-2FBqvDR-123" edge="1" parent="1" source="8D8XZ6ssLlLs-2FBqvDR-117" target="8D8XZ6ssLlLs-2FBqvDR-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
